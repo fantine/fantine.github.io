@@ -1,6 +1,6 @@
 I’m Fantine Huot, a geophysicist and computer scientist based in San Francisco.
 
-I am currently pursuing a Ph.D. in Geophysics at Stanford University. My work focuses on the intersection between Seismology and Deep Learning. I got a M.S. my Science and Executive Engineering from the Ecole Nationale Superieure des Mines de Paris, and worked for a couple years as a software engineer in Paris before starting my PhD. 
+I am currently pursuing a Ph.D. in Geophysics at Stanford University. My work focuses on the intersection between Seismology and Deep Learning. I got my M.S. in Science and Executive Engineering from the Ecole Nationale Superieure des Mines de Paris, and worked for a couple years as a software engineer in Paris before starting my PhD. 
 
 I hope you enjoy my website. It is currently under construction, so stay tuned for more content.
 
