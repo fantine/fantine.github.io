@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+I’m Fantine Huot, a geophysicist and computer scientist based in San Francisco.
 
-You can use the [editor on GitHub](https://github.com/fantine/fantine.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am currently pursuing a Ph.D. in Geophysics at Stanford University. My work focuses on the intersection between Seismology and Deep Learning. I got a M.S. my Science and Executive Engineering from the Ecole Nationale Superieure des Mines de Paris, and worked for a couple years as a software engineer in Paris before starting my PhD. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I hope you enjoy my website. It is currently under construction, so stay tuned for more content.
 
-### Markdown
+## Announcements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* My paper ["Automatic noise exploration in urban areas"](https://library.seg.org/doi/abs/10.1190/segam2017-17774369.1) has been selected for the Award of Merit for Best Student Poster Paper Presented at the 2017 SEG Annual Meeting. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fantine/fantine.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* ["A Seismic Shift in Scalable Acquisition Demands New Processing: Fiber-Optic Seismic Signal Retrieval in Urban Areas with Unsupervised Learning for Coherent Noise Removal"](http://ieeexplore.ieee.org/document/8310692/) was published in the Mar. 2018 IEEE Signal Processing Magazine special issue on subsurface exploration. 
