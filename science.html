@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<!--
+	Author: Fantine Huot
+-->
+<html>
+
+<head>
+    <title>Fantine Huot</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Fantine Huot</a></h1>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <div class="inner">
+                <h2>Menu</h2>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="science.html">Earth Sciences</a></li>
+                    <li><a href="machine_learning.html">Machine Learning</a></li>
+                    <li><a href="problem_solving.html">Problem-Solving</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <a href="#" class="close">Close</a>
+            </div>
+        </nav>
+
+        <!-- Wrapper -->
+        <section id="wrapper">
+            <header>
+                <div class="inner">
+                    <h2>Computational Earth Sciences</h2>
+                    <p>Tackling big earth problems using big compute.</p>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+
+                    <h3 class="major">Listening to earthquakes using telecom fiber</h3>
+                    <div class="col-12"><span class="image fit"><img src="images/sdasa.jpg" alt="" /></span></div>
+                    <p>Many densely-populated areas, like the
+                        San Francisco Bay Area, are located in <b>earthquake-prone</b> regions.
+                        This makes it essential to record the local seismic activity, but deploying traditional seismic
+                        sensors in
+                        urban areas is costly and impractical.
+                    </p>
+                    <p>At Stanford University, I
+                        demonstrated that it is possible to repurpose <b>telecom fiber-optic cables</b> &mdash; the
+                        same as for high-speed internet &mdash; to monitor local earthquake activity. This is done by
+                        sending a
+                        laser pulse through the fiber and measuring the backscattered energy. When the fiber vibrates,
+                        it shows up
+                        in the recorded data.
+                    </p>
+                    <p>
+                        This technology allows for extensive seismic monitoring at low cost in urban areas. To extract
+                        this data's
+                        full value, I developed <b>new signal processing algorithms</b>, combining high-performance
+                        computing and
+                        deep learning, to detect earthquake activity and other sources of vibrations.
+                    </p>
+                    <p>
+                        <code>Python</code> <code>C++</code> <code>TensorFlow</code>
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-12-medium">
+                            <ul class="actions small">
+                                <li><a href="https://www.vam.ac.uk/bigglassmic/#" class="button primary small">See it in
+                                        action</a></li>
+                                <li><a href="https://library.seg.org/doi/abs/10.1190/segam2020-3427300.1"
+                                        class="button primary small">Get the
+                                        paper</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inner">
+
+                    <h3 class="major">High-performance computing for large-scale simulations</h3>
+                    <div class="col-12"><span class="image fit"><img src="images/climate.jpg" alt="" /></span></div>
+                    <p>I developed numerical methods for several large-scale scientific challenges: <b>waveform imaging,
+                            fire
+                            simulation, and atmospheric modeling</b>. The computational requirements &mdash; both in
+                        terms of
+                        processing power
+                        and memory &mdash; for these applications are immense and require custom code to run efficiently
+                        on computer
+                        clusters.
+                    </p>
+                    <!-- <p>
+						I implemented an imaging algorithm called <b>full-waveform inversion</b> on Google tensor processing units
+						(TPUs).
+						It is one of the state-of-the-art methods used for Earth subsurface imaging. It can also improve medical
+						imaging with ultrasound for applications such as breast cancer detection and heart condition diagnosis.
+					</p>
+					<p>
+						The <b>fire simulation</b> was also developed on Google TPUs. Accurate fire propagation simulation is
+						critical for wildfire disaster preparedness.
+					</p>
+					<p>
+						As for atmospheric modeling, I implemented radiative patterns and dust transport mechanisms into a
+						<b>climate
+							model of planet Mars</b>. This allowed us to model carbon dioxide ice formations that matched satellite
+						observations.
+					</p> -->
+                    <ul>
+                        <li>
+                            I implemented an imaging algorithm called <b>full-waveform inversion</b> on Google tensor
+                            processing units
+                            (TPUs).
+                            It is one of the state-of-the-art methods used for Earth subsurface imaging. It can also
+                            improve medical
+                            imaging with ultrasound for applications such as breast cancer detection and heart condition
+                            diagnosis.
+                        </li>
+                        <li>
+                            The <b>fire simulation</b> was also developed on Google TPUs. Accurate fire propagation
+                            simulation is
+                            critical for wildfire disaster preparedness.
+                        </li>
+                        <li>
+                            As for atmospheric modeling, I implemented radiative patterns and dust transport mechanisms
+                            into a
+                            <b>climate
+                                model of planet Mars</b>. This allowed us to model carbon dioxide ice formations that
+                            matched satellite
+                            observations.
+                        </li>
+                    </ul>
+                    <p>
+                        <code>Python</code> <code>C++</code> <code>TensorFlow</code> <code>Fortran</code>
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-12-medium">
+                            <ul class="actions small">
+                                <li><a href="https://arxiv.org/abs/1912.08063" class="button primary small">Read more
+                                        about imaging</a>
+                                </li>
+                                <li><a href="https://library.seg.org/doi/abs/10.1190/segam2018-2997880.1"
+                                        class="button primary small">Read more about
+                                        wildfires</a></li>
+                                <!-- <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2011JE003855"
+										class="button primary small">Read more about Mars</a> -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="inner">
+
+					<h3 class="major">Separating signal from noise in waveform data</h3>
+					<p><b>Noise estimation, separation, and removal</b> in time-series data are core aspects of signal processing
+						workflows. However, traditional signal processing techniques do not perform well on non-stationary noise.
+						They may even deteriorate some of the input signals.
+					</p>
+					<p>
+						I developed a novel approach using <b>wavelet transforms</b> to automatically denoise waveform data while
+						preserving the signal of interest. The process does not require manual fine-tuning of the filter parameters
+						and is computationally scalable.
+					</p>
+					<p>
+						<code>Python</code> <code>C++</code> <code>TensorFlow</code>
+					</p>
+					<div class="row">
+						<div class="col-6 col-12-medium">
+							<ul class="actions small">
+								<li><a href="https://library.seg.org/doi/10.1190/segam2019-3213958.1" class="button primary small">Get
+										the paper</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div> -->
+                <!-- <h3 class="major">Vitae phasellus</h3>
+									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3 class="major">Sed feugiat lorem</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3 class="major">Nisl placerat</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article> -->
+                <!-- </section> -->
+
+            </div>
+    </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="inner">
+            <h2 class="major">Get in touch</h2>
+            <p>I’m always open to interesting conversations and collaboration.</p>
+            <form method="post" name="emailform" action="https://formspree.io/f/mjvpldab">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" /></li>
+                </ul>
+            </form>
+            <ul class="contact">
+                <li class="icon solid fa-home">Amsterdam, Netherlands</li>
+                <li class="icon solid fa-file"><a href="fantine_huot_resume_2021.pdf" target="_blank"
+                        rel="noopener noreferrer">My resume</a></li>
+                <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+                <!-- <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li> -->
+                <li class="icon brands fa-gitlab"><a href="http://www.gitlab.com/fantine" target="_blank"
+                        rel="noopener noreferrer">gitlab.com/fantine</a>
+                </li>
+                <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/fantine" target="_blank"
+                        rel="noopener noreferrer">linkedin.com/in/fantine</a>
+                </li>
+                <!-- <li class="icon brands fa-google"><a
+							href="https://scholar.google.com/citations?hl=en&user=79VvQLMAAAAJ&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a></li> -->
+                <!-- <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
+                <!-- <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li> -->
+                <li class="icon brands fa-instagram"><a href="http://instagram.com/fantine.art" target="_blank"
+                        rel="noopener noreferrer">instagram.com/fantine.art</a></li>
+
+            </ul>
+            <ul class="copyright">
+                <li>&copy; 2021, Fantine Huot. All rights reserved.</li>
+            </ul>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gen_validatorv31.js"></script>
+    <script language="JavaScript">
+        // Code for validating the form
+        // http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        var frmvalidator = new Validator("emailform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<!--
+	Author: Fantine Huot
+-->
+<html>
+
+<head>
+    <title>Fantine Huot</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">Fantine Huot</a></h1>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <div class="inner">
+                <h2>Menu</h2>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="science.html">Earth Sciences</a></li>
+                    <li><a href="machine_learning.html">Machine Learning</a></li>
+                    <li><a href="problem_solving.html">Problem-Solving</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <a href="#" class="close">Close</a>
+            </div>
+        </nav>
+
+        <!-- Wrapper -->
+        <section id="wrapper">
+            <header>
+                <div class="inner">
+                    <h2>Machine Learning</h2>
+                    <p>Finding hidden patterns in messy data.</p>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+
+                    <h3 class="major">Estimating wildfire risk from remote-sensing data</h3>
+                    <div class="col-12"><span class="image fit"><img src="images/fire.jpg" alt="" /></span></div>
+                    <p>
+                        Over the last few decades, wildfires have become a massive problem, with longer fire seasons and
+                        larger
+                        fires each year. Assessing the <b>fire likelihood</b>
+                        &mdash; the
+                        probability of wildfire burning in a specific location &mdash; is critical for forestry
+                        management, disaster
+                        preparedness, and early-warning systems.
+                    </p>
+                    <p>
+                        Traditionally, we estimate wildfire likelihood by modeling fire behavior across simulations by
+                        varying
+                        parameters, which can be time-consuming and computationally-intensive. Instead of using
+                        simulations, I
+                        implemented and trained <b>deep neural networks</b> to predict the occurrence of wildfires from
+                        remote-sensing data, using data from historical wildfires. I demonstrated that these models can
+                        successfully
+                        identify areas of high fire likelihood from aggregated data about vegetation, weather, and
+                        topography.
+                    </p>
+                    <p>
+                        I will be presenting this work at the <a href="https://www.hadr.ai/home"><b>NeurIPS 2020</b>
+                            Artificial
+                            Intelligence for Humanitarian Assistance and
+                            Disaster Response Workshop</a>.
+                    </p>
+                    <p>
+                        <code>Python</code> <code>TensorFlow</code> <code>Earth Engine</code>
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-12-medium">
+                            <ul class="actions small">
+                                <li><a href="https://www.hadr.ai/home" class="button primary small">NeurIPS workshop</a>
+                                </li>
+                                <li><a href="https://arxiv.org/abs/2010.07445" class="button primary small">Get the
+                                        paper</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner">
+                    <h3 class="major">Training a neural network to find more earthquakes than ever before</h3>
+                    <!-- <div class="col-12"><span class="image fit"><img src="images/tremor.png" alt="" /></span> </div> -->
+                    <p>
+                        When we think of earthquakes, we think of the ground shaking. But there exists an entirely
+                        different type of
+                        earthquake, much smaller in amplitude, similar to a repeating rumbling: These tiny repeating
+                        earthquakes are
+                        called <b>tectonic tremor</b>.
+                    </p>
+                    <p>
+                        Since tectonic tremor repeats regularly, it is valuable for mapping the precise location of
+                        faults. However,
+                        it is near the noise level and thus <b>difficult to detect reliably</b>. It is usually detected
+                        by looking
+                        for a match using carefully crafted reference templates.
+                    </p>
+                    <p>
+                        Using a catalog of more than <b>1 million tremor events</b> detected along the San Andreas Fault
+                        for over 15
+                        years, I created a novel approach to tremor detection with a convolutional neural network. I
+                        demonstrate
+                        that this methodology can detect tremor of very low signal amplitude, even below the background
+                        noise level,
+                        without prior templates.
+                    </p>
+                    <p>
+                        <code>Python</code> <code>C++</code> <code>TensorFlow</code>
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-12-medium">
+                            <ul class="actions small">
+                                <li><a href="https://library.seg.org/doi/abs/10.1190/segam2018-2998567.1"
+                                        class="button primary small">Get
+                                        the
+                                        paper</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <h3 class="major">Tracking cars using telecom fiber</h3>
+                    <p><span class="image left"><img src="images/traffic.jpg" alt="" /></span>
+                        With the development of <b>autonomous vehicles</b>, there is an increasing need for sensors
+                        detecting
+                        motion in the cameras' dead angles, especially in urban areas.
+                    </p>
+                    <p>
+                        At Stanford University, I demonstrated that it is possible to repurpose telecom fiber-optic
+                        cables &mdash;
+                        the same as for high-speed internet &mdash; to <b>track vehicle traffic</b>. This is done by
+                        sending a
+                        laser pulse through the fiber and measuring the backscattered energy. As moving objects make the
+                        fiber
+                        underground vibrate, it shows up in the recorded data.
+                    </p>
+                    <p>
+                        To extract this data's full value, I developed <b>new signal processing algorithms</b> for
+                        vehicle
+                        tracking, combining high-performance computing and deep learning. Since the data are solely
+                        based on
+                        vibrations, this process is entirely anonymous.
+                    </p>
+                    <p>
+                        <code>Python</code> <code>C++</code> <code>TensorFlow</code>
+                    </p>
+                    <div class="row">
+                        <div class="col-6 col-12-medium">
+                            <ul class="actions small">
+                                <li><a href="https://library.seg.org/doi/abs/10.1190/segam2018-2997880.1"
+                                        class="button primary small">Get the
+                                        paper</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <h3 class="major">Vitae phasellus</h3>
+									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3 class="major">Sed feugiat lorem</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3 class="major">Nisl placerat</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a href="#" class="special">Learn more</a>
+										</article> -->
+                    <!-- </section> -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="inner">
+                <h2 class="major">Get in touch</h2>
+                <p>I’m always open to interesting conversations and collaboration.</p>
+                <form method="post" name="emailform" action="https://formspree.io/f/mjvpldab">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </form>
+                <ul class="contact">
+                    <li class="icon solid fa-home">Amsterdam, Netherlands</li>
+                    <li class="icon solid fa-file"><a href="fantine_huot_resume_2021.pdf" target="_blank"
+                            rel="noopener noreferrer">My resume</a></li>
+                    <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+                    <!-- <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li> -->
+                    <li class="icon brands fa-gitlab"><a href="http://www.gitlab.com/fantine" target="_blank"
+                            rel="noopener noreferrer">gitlab.com/fantine</a>
+                    </li>
+                    <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/fantine" target="_blank"
+                            rel="noopener noreferrer">linkedin.com/in/fantine</a>
+                    </li>
+                    <!-- <li class="icon brands fa-google"><a
+							href="https://scholar.google.com/citations?hl=en&user=79VvQLMAAAAJ&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a></li> -->
+                    <!-- <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
+                    <!-- <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li> -->
+                    <li class="icon brands fa-instagram"><a href="http://instagram.com/fantine.art" target="_blank"
+                            rel="noopener noreferrer">instagram.com/fantine.art</a></li>
+
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; 2021, Fantine Huot. All rights reserved.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gen_validatorv31.js"></script>
+    <script language="JavaScript">
+        // Code for validating the form
+        // http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+        var frmvalidator = new Validator("emailform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("email", "req", "Please provide your email");
+        frmvalidator.addValidation("email", "email", "Please enter a valid email address"); 
+    </script>
+
+</body>
+
+</html>
