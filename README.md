@@ -1,7 +1,16 @@
 Hi, I'm Fantine.
 
-I'm currently pursuing a Ph.D. in computational earth sciences at Stanford University, working on research at the intersection of deep learning and seismology. I hold a Master in Science and Executive Engineering from the Ecole Nationale Superieure des Mines de Paris.
-
-Previously, I was with Google, Chevron, Schlumberger, Actimage, and Valeo. I have moved around, spending time living in the Netherlands, France, Japan, the Philippines, and the United States. Somewhere in there, I got my helicopter license.
-
-When I am not doing science or writing code, I enjoy [drawing fantasy creatures](https://www.instagram.com/piecrustinator_).
+I am a research engineer specializing in the intersection of AI and real-world applications. 
+I am currently at Google DeepMind working on large language models. 
+Before joining Google DeepMind, I was principal scientist at SambaNova Systems, designing algorithms and computational methods for performing blazing-fast math on their unique AI hardware stack. I got a Ph.D. in Geophysics from Stanford University. I hold a Master in Science and Executive
+                        Engineering
+                        from the Ecole Nationale Superieure des Mines de Paris. I got awarded Top Woman in AI Netherlands in 2024.
+                    </p>
+                    <p>I have moved around, spending
+                        time living in the Netherlands, France, Japan, and the United States. Somewhere
+                        in there, I
+                        found the time to get my helicopter license.
+                    </p>
+                    <p>
+                        When I am not doing science or writing code, I enjoy <a href="http://instagram.com/fantine.art"
+                            target="_blank" rel="noopener noreferrer">drawing</a> and rock-climbing.
